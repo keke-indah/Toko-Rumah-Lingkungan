@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Metas -->
+    <title>Toko Rumah Lingkungan</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/lo2.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <!-- Start Main Top -->
+    <div class="main-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="custom-select-box">
+                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
+							<option>Rp  IDR</option>
+							<option>$   USD</option>
+							<option>€   EUR</option>
+						</select>
+                    </div>
+                    <div class="right-phone-box">
+                        <p>telp :- <a href="#"> +62 878 5501/ 112 233 445></p>
+                    </div>
+                    <div class="our-link">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-user s_color"></i> Akun Saya</a></li>
+                            <li><a href="#"><i class="fas fa-location-arrow"></i> Lokasi Kami</a></li>
+                            <li><a href="#"><i class="fas fa-headset"></i> Hubungi Kami</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="login-box">
+						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
+							<option>Daftar Disini</option>
+							<option>Masuk</option>
+						</select>
+					</div>
+                    <div class="text-slid-box">
+                        <div id="offer-box" class="carouselTicker">
+                            <ul class="offer-box">
+                                <li>
+                                    <i class="fab fa-opencart"></i> 20% diskon Seluruh Pembelian Kode promo: offT80
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 50% - 80% Produk Peralatan Keseharian
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Diskon 10%! Belanja Prawatan Pribadi
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Diskon 50%! Belanja Peralatan Rumah Tangga
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Diskon 10%! Belanja Prawatan Pribadi
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 50% - 80%  Produk Peralatan Keseharian
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 20% diskon Seluruh Pembelian Kode promo: offT80
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Diskon 50%! Belanja Peralatan Rumah Tangga
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Top -->
+
+    <!-- Start Main Top -->
+    <header class="main-header">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/LO.png" class="logo" alt="" ></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Beranda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Tentang Kami</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Toko</a>
+                            <ul class="dropdown-menu">
+								<li><a href="shop.html">Produk Toko</a></li>
+								<li><a href="shop-detail.html">Detail Toko</a></li>
+                                <li><a href="cart.html">Keranjang</a></li>
+                                <li><a href="checkout.html"> Buat Pesanan</a></li>
+                                <li><a href="my-account.html">Akun Saya</a></li>
+                                <li><a href="wishlist.html">Daftar Keinginan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Galeri</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Hubungi Kami</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li class="side-menu">
+							<a href="#">
+								<i class="fa fa-shopping-bag"></i>
+								<span class="badge">3</span>
+								<p>Keranjang Saya</p>
+							</a>
+						</li>
+                    </ul>
+                </div>
+                <div class="attr-nav">
+                <div style="display: flex; justify-content: space-between;">
+                    <ion-icon name="moon-outline" class="switch"></ion-icon>
+                </div>
+            </div>
+                <!-- End Atribute Navigation -->
+            
+            </div>
+            <!-- Start Side Menu -->
+            <div class="side">
+             <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+             <li class="cart-box">
+                 <ul class="cart-list">
+                     <li>
+                         <a href="#" class="photo"><img src="images/alat makan kayu1.jpg" class="cart-thumb" alt="" /></a>
+                         <h6><a href="#">Alat Makan Kayu </a></h6>
+                         <p>1x - <span class="price">Rp. 32.100</span></p>
+                     </li>
+                     <li>
+                         <a href="#" class="photo"><img src="images/SIKAT GIGI KAYU 3.webp" class="cart-thumb" alt="" /></a>
+                         <h6><a href="#">Sikat Gigi Kayu</a></h6>
+                         <p>1x - <span class="price">Rp. 3.600</span></p>
+                     </li>
+                     <li>
+                         <a href="#" class="photo"><img src="images/SEDOTAN BAMBU.jpg" class="cart-thumb" alt="" /></a>
+                         <h6><a href="#">Sedotan Bambu</a></h6>
+                         <p>1x - <span class="price">Rp. 4.500</span></p>
+                     </li>
+                     <li class="total">
+                         <a href="cart.html" class="btn btn-default hvr-hover btn-cart">Lihat Keranjang</a>
+                         <span class="float-right"><strong>Total</strong>:Rp42.000</span>
+                     </li>
+                 </ul>
+             </li>
+         </div>
+         <!-- End Side Menu -->
+         </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Main Top -->
+
+    <!-- Start Top Search -->
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Search -->
+
+    <!-- Start Slider -->
+    <div id="slides-shop" class="cover-slides">
+        <ul class="slides-container">
+            <li class="text-center">
+                <img src="images/backround.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20"><strong>Selamat Datang Di <br> Rumah Lingkungan</strong></h1>
+                            <p class="m-b-40">"Kualitas Ramah Lingkungan, Cinta yang Berkelanjutan."<br> Pilihan yang kita buat sehari-hari memiliki dampak besar terhadap lingkungan. <br> Mari menciptakan dunia yang lebih berkelanjutan.</p>
+                            <p><a class="btn hvr-hover" href="#">Toko Baru</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="text-center">
+                <img src="images/kerajinanan.jpeg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20"><strong>Selamat Datang Di <br> Rumah Lingkungan</strong></h1>
+                            <p class="m-b-40">"Kualitas Ramah Lingkungan, Cinta yang Berkelanjutan."<br> Pilihan yang kita buat sehari-hari memiliki dampak besar terhadap lingkungan. <br> Mari menciptakan dunia yang lebih berkelanjutan.</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="text-center">
+                <img src="images/BIO1.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20"><strong>Selamat Datang Di <br> Rumah Lingkungan</strong></h1>
+                            <p class="m-b-40">"Kualitas Ramah Lingkungan, Cinta yang Berkelanjutan."<br> Pilihan yang kita buat sehari-hari memiliki dampak besar terhadap lingkungan. <br> Mari menciptakan dunia yang lebih berkelanjutan.</p>
+                            <p><a class="btn hvr-hover" href="#">Shop New</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="slides-navigation">
+            <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <!-- End Slider -->
+     
+
+    <!-- Start Categories  -->
+    <div class="categories-shop">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/rumah tangga1.jpg" alt="" />
+                        <a class="btn hvr-hover" href="gallery.html">Peralatan Rumah Tangga</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/kemasan2.jpeg" alt="" width="250px" height="250px"/>
+                        <a class="btn hvr-hover" href="gallery.html">Kemasan dan Penyimpanan</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/perawatan pribadi.jpg" alt="" />
+                        <a class="btn hvr-hover" href="gallery.html">Perawatan Pribadi</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/mainan1.jpg" alt="" />
+                        <a class="btn hvr-hover" href="gallery.html">Mainan Ramah Lingkungan</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/akses.webp" alt="" />
+                        <a class="btn hvr-hover" href="gallery.html">Pakain dan Aksesoris</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/rmhtangga.jpeg" alt="" />
+                        <a class="btn hvr-hover" href="gallery.html">Produk Keseharian</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Categories -->
+     
+
+    <div class="title-all text-center">
+        <h1>Toko Rumah Lingkungan</h1>
+        <p>"Kualitas Ramah Lingkungan, Cinta yang Berkelanjutan."</p>
+    </div>
+	<div class="box-add-products">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="offer-box-products">
+						<img class="img-fluid" src="images/toko-ramah-lingkungan.jpg" alt="" />
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="offer-box-products">
+						<img class="img-fluid" src="images/toko1.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- Start Products  -->
+    <div class="products-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Produk Ramah Lingkungan dan Produk Lokal</h1>
+                        <p>"Kualitas Ramah Lingkungan, Cinta yang Berkelanjutan" <br> Kami ingin membantu Anda membuat pilihan yang lebih baik, baik untuk diri sendiri maupun untuk planet ini</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="special-menu text-center">
+                        <div class="button-group filter-button-group">
+                            <button class="active" data-filter="*">semua</button>
+                            <button data-filter=".top-featured">Teratas</button>
+                            <button data-filter=".best-seller">Terlaris</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row special-list">
+                <div class="col-lg-3 col-md-6 special-grid best-seller">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="sale">Sale</p>
+                            </div>
+                            <img src="images/sikat gigi kayu 2.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="shop.html" data-toggle="tooltip" data-placement="right" title="Lihat"><i class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Membandingkan"><i class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Tambahkan Ke Daftar Keinginan"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <a class="cart" href="#">Tambahkan Ke Keranjang</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>Sikat Gigi Bambu</h4>
+                            <h5> Rp. 3.600</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid top-featured">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="new">New</p>
+                            </div>
+                            <img src="images/sabun.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="shop.html" data-toggle="tooltip" data-placement="right" title="Lihat"><i class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Membandingkan"><i class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Tambahkan Ke Daftar Keinginan"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <a class="cart" href="#">Tambahkan Ke Keranjang</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>Sabun Oragnik</h4>
+                            <h5> Rp. 10.600</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid top-featured">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="sale">Sale</p>
+                            </div>
+                            <img src="images/deodoran.jpg" class="img-fluid" alt="Image" width="265px" height="265px">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="shop.html" data-toggle="tooltip" data-placement="right" title="Lihat"><i class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Membandingkan"><i class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Tambahkan Ke Daftar Keinginan"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <a class="cart" href="#">Tambahkan Ke Keranjang</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>Deodoran Alami</h4>
+                            <h5> Rp. 29.790</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid best-seller">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="sale">Sale</p>
+                            </div>
+                            <img src="images/sisir.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="shop.html" data-toggle="tooltip" data-placement="right" title="Lihat"><i class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Membandingkan"><i class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Tambahkan Ke Daftar Keinginan"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <a class="cart" href="#">Tambahkan Ke Keranjang</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>Sisir Bambu</h4>
+                            <h5> Rp. 15.100</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Products  -->
+
+    <!-- Start Blog  -->
+    <div class="latest-blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Bahan Ramah Lingkungan</h1>
+                        <p>"Kualitas Ramah Lingkungan, Cinta yang Berkelanjutan."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="images/BIO1.jpg" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h3>Bahan biodegradable</h3>
+                                <p align="justify">Bahan biodegradable adalah bahan-bahan yang dapat terurai secara alami oleh mikroorganisme seperti bakteri, jamur, dan organisme lainnya. Proses penguraian ini menghasilkan zat-zat alami yang tidak beracun, sehingga tidak meninggalkan polusi berbahaya bagi lingkungan. Bahan-bahan biodegradable sering digunakan sebagai alternatif bagi plastik dan material non-biodegradable lainnya untuk mengurangi limbah yang sulit terurai. </p>
+                            </div>
+                            <ul class="option-blog">
+                                <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                                <li><a href="#"><i class="far fa-comments"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="images/daurulangpastik2.jpg" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h3>Bahan Daur Ulang Anorganik</h3>
+                                <p align="justify"> Daur ulang adalah upaya yang dilakukan untuk mengelola sampah yang dihasilkan. Bahan Daur Ulang Anorganik adalah bahan-bahan non-organik yang sebelumnya sudah digunakan, kemudian diolah kembali untuk digunakan sebagai bahan baku baru.Tidak hanya bisa membantu mengurangi sampah dan menekankan kebutuhan akan sumber daya alam baru daur ulang yang tepat juga bisa menghasilkan produk yang bernilai tinggi. </p>
+                            </div>
+                            <ul class="option-blog">
+                                <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                                <li><a href="#"><i class="far fa-comments"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="images/bahan organik1.jpg" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h3>Bahan Daur Ulang Organik</h3>
+                                <p align="justify">Bahan Daur Ulang Organik adalah bahan-bahan alami yang sebelumnya sudah digunakan atau diolah, lalu diproses ulang agar bisa digunakan kembali untuk mengurangi limbah. dengan bahan daur ulang organik kita dapat membantu menciptakan ekonomi sirkular, di mana bahan-bahan tidak langsung dibuang, tetapi terus diputar kembali untuk mengurangi dampak negatif terhadap lingkungan.</p>
+                            </div>
+                            <ul class="option-blog">
+                                <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                                <li><a href="#"><i class="far fa-comments"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Blog  -->
+    <div class="sales-statistics">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Statistik Penjualan</h1>
+                        <p>Ringkasan Penjualan Produk Ramah Lingkungan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="stat-box">
+                        <h3>Barang Terjual</h3>
+                        <p class="stat-number">1,234</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-box">
+                        <h3>Pesanan Aktif</h3>
+                        <p class="stat-number">56</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-box">
+                        <h3>Pesanan Dibatalkan</h3>
+                        <p class="stat-number">12</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ <!-- Semua kode sebelumnya tetap sama sampai sebelum Instagram Feed -->
+
+    <!-- Start Sales Chart Section -->
+<style>
+.stat-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.stat-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin: 0;
+}
+</style>
+    <div class="sales-chart">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Statistik Penjualan</h1>
+                        <p>Grafik Penjualan Produk Ramah Lingkungan per Kategori Tahun 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="chart-container" style="position: relative; height:60vh; width:100%">
+                        <canvas id="salesChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Sales Chart Section -->
+     
+
+    <!-- Start Instagram Feed -->
+    <!-- Kode Instagram Feed yang sudah ada -->
+
+    <!-- Semua kode JavaScript yang sudah ada -->
+    
+    <!-- Tambahkan script untuk chart -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var ctx = document.getElementById('salesChart').getContext('2d');
+        var salesChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'],
+                datasets: [{
+                    label: 'Produk Rumah Tangga',
+                    data: [120, 90, 90, 150, 100, 330, 100, 150, 90, 95, 0, 0],
+                    backgroundColor: 'rgba(255, 99, 132, 0.6)'
+                }, {
+                    label: 'Produk Perawatan Pribadi',
+                    data: [150, 140, 180, 270, 150, 220, 80, 90, 140, 100, 0, 0],
+                    backgroundColor: 'rgba(54, 162, 235, 0.6)'
+                }, {
+                    label: 'Mainan Ramah Lingkungan',
+                    data: [130, 170, 140, 180, 160, 190, 150, 220, 210, 110, 0, 0],
+                    backgroundColor: 'rgba(255, 206, 86, 0.6)'
+                }, {
+                    label: 'Kerajinan Ramah Lingkungan',
+                    data: [180, 150, 210, 190, 170, 160, 230, 200, 140, 150, 0, 0],
+                    backgroundColor: 'rgba(75, 192, 192, 0.6)'
+                }, {
+                    label: 'Pakaian dan Aksesoris',
+                    data: [150, 180, 160, 100, 190, 210, 170, 150, 240, 200, 0, 0],
+                    backgroundColor: 'rgba(153, 102, 255, 0.6)'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Jumlah Penjualan (Unit)',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Bulan',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Statistik Penjualan Bulanan per Kategori Tahun 2024',
+                        font: {
+                            size: 16,
+                            weight: 'bold'
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.dataset.label + ': ' + context.parsed.y + ' unit';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    });
+    </script>
+
+    <!-- ALL JS FILES yang sudah ada -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Start Instagram Feed  -->
+    <div class="instagram-box">
+        <div class="main-instagram owl-carousel owl-theme">
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/catton2.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sisir.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sabun.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sikat gigi kayu 2.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/SEDOTAN BAMBU.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sisir.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/tas1.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/SANDAL KAIN1.jpg" alt=""/>
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sikat gigi kayu 2.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/deodoran.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Instagram Feed  -->
+
+
+    <!-- Start Footer  -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>Waktu Bisnis</h3>
+							<ul class="list-time">
+								<li>Senin - Jumat: 08.00 - 17.00</li> <li>Sabtu: 10.00 - 20.00</li> <li>Minggu: <span>Tutup</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>Newsletter</h3>
+							<form class="newsletter-box">
+								<div class="form-group">
+									<input class="" type="email" name="Email" placeholder="Alamat Email*" />
+									<i class="fa fa-envelope"></i>
+								</div>
+								<button class="btn hvr-hover" type="submit">kirim</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>Media Sosial</h3>
+							<p>Temukan Kami Di:</p>
+							<ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+						</div>
+					</div>
+				</div>
+				<hr>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-widget">
+                            <h4>Tentang Rumah Lingkungan</h4>
+                            <p align="justify">Rumah Lingkungan adalah platform penjualan tempat di mana keberlanjutan dan dukungan terhadap produk ramah lingkungan serta produk lokal menjadi prioritas utama kami. Kami percaya bahwa setiap pilihan yang kita buat dapat memberikan dampak positif bagi lingkungan dan masyarakat sekitar.</p> 
+							<p align="justify">Kami mengajak Anda untuk menjadi bagian dari gerakan menuju keberlanjutan. Dengan setiap pembelian, Anda membantu menciptakan dunia yang lebih baik. Jelajahi koleksi kami dan temukan produk yang sesuai dengan nilai-nilai Anda!</p> 							
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link">
+                            <h4>Informasi</h4>
+                            <ul>
+                                <li><a href="about.html">Tentang Kami</a></li>
+                                <li><a href="#">Pelayanan pelanggan</a></li>
+                                <li><a href="#">Peta Situs Kami</a></li>
+                                <li><a href="#">Ketentuan &amp; Kondisi</a></li>
+                                <li><a href="#">Kebijakan Privasi</a></li>
+                                <li><a href="#">Informasi Pengiriman</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Hubungi Kami</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Alamat: Dsn. Pepuro Utara II <br> Ds. Cendana Hijau<br> Kab. Luwu Timur</p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Telp: <a href="tel:+1-888705770">- +62 878 5501/ 112 233 445</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">rumahlingkungan@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div style="text-align: center;">
+        <h3>Pengunjung Website</h3>
+        <a href="https://www.hitwebcounter.com" target="_blank">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=17191506&style=0006&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>  
+        </a>
+        <p>Jumlah Pengunjung</p>
+    </div>
+    <!-- End Footer  -->
+
+    <!-- Start copyright  -->
+    <div class="footer-copyright">
+        <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
+            <a href="https://html.design/">html design</a></p>
+    </div>
+    <!-- End copyright  -->
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/inewsticker.js"></script>
+    <script src="js/bootsnav.js."></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
